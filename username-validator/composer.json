@@ -1,0 +1,30 @@
+{
+    "name": "wtcl/username-validator",
+    "description": "Custom username validator for Flarum that allows spaces but has specific formatting rules",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "WTCL",
+            "email": "admin@pokemonjohto.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WTCL\\UsernameValidator\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Username Validator",
+            "icon": {
+                "name": "fas fa-user-check",
+                "backgroundColor": "#6932d1",
+                "color": "#fff"
+            }
+        }
+    }
+}
